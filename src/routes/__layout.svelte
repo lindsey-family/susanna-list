@@ -55,7 +55,7 @@
         <slot />
     </div>
 </PageTransition>
-<a href="https://github.com/oren-lindsey/list-v2" class="my-2 text-darkgrey hover:text-black dark:text-grey dark:hover:text-white grid place-items-center w-screen transition ease-in-out delay-75">Made with ❤️ by Oren Lindsey</a>
+<a href="https://github.com/lindsey-family/simeon-list" class="my-2 text-darkgrey hover:text-black dark:text-grey dark:hover:text-white grid place-items-center w-screen transition ease-in-out delay-75">Made with ❤️ by Oren Lindsey</a>
 <style>
     #right {
       right: 0;
