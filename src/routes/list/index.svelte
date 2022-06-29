@@ -53,7 +53,7 @@
         return json
     }
 </script>
-<h1 class="text-3xl dark:text-white text-black">Oren's List</h1>
+<h1 class="text-3xl dark:text-white text-black">Simeon's List</h1>
 {#if items.length > 1}
 <i class="text-darkgrey dark:text-grey">{items.length} items</i>
 {:else if items.length == 1}
@@ -167,17 +167,17 @@
     {/each}
 </ul>
 <MetaTags
-  title={`Oren's list`}
-  description={`Oren's wishlist`}
+  title={`Simeon's list`}
+  description={`Simeon's wishlist`}
   openGraph={{
     url: $page.url,
-    title: `Oren's list`,
-    description: `Oren's wishlist`,
-    site_name: 'Oren\'s list'
+    title: `Simeon's list`,
+    description: `Simeon's wishlist`,
+    site_name: 'Simeon\'s list'
   }}
   twitter={{
     cardType: 'summary_large_image',
-    title: `Oren's list`,
-    description: 'Oren\'s wishlist',
+    title: `Simeon's list`,
+    description: 'Simeon\'s wishlist',
   }}
 />
