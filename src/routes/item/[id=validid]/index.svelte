@@ -107,24 +107,24 @@
     </form>
 {/if}
 <MetaTags
-  title={`Simeon's list - ${item.name}`}
-  description={`Simeon's wishlist - ${item.name}`}
+  title={`Susanna's list - ${item.name}`}
+  description={`Susanna's wishlist - ${item.name}`}
   openGraph={{
     url: $page.url,
-    title: `Simeon's list - ${item.name}`,
-    description: `Simeon's wishlist - ${item.name}`,
+    title: `Susanna's list - ${item.name}`,
+    description: `Susanna's wishlist - ${item.name}`,
     images: [
       {
         url: item.img,
         alt: item.name
       }
     ],
-    site_name: 'Simeon\'s list'
+    site_name: 'Susanna\'s list'
   }}
   twitter={{
     cardType: 'summary_large_image',
-    title: `Simeon's list - ${item.name}`,
-    description: 'Simeon\'s wishlist',
+    title: `Susanna's list - ${item.name}`,
+    description: 'Susanna\'s wishlist',
     image: item.img,
     imageAlt: item.name
   }}
