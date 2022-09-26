@@ -53,7 +53,7 @@
         return json
     }
 </script>
-<h1 class="text-3xl dark:text-white text-black">Simeon's List</h1>
+<h1 class="text-3xl dark:text-white text-black">Susanna's List</h1>
 {#if items.length > 1}
 <i class="text-darkgrey dark:text-grey">{items.length} items</i>
 {:else if items.length == 1}
