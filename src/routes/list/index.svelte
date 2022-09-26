@@ -167,17 +167,17 @@
     {/each}
 </ul>
 <MetaTags
-  title={`Simeon's list`}
-  description={`Simeon's wishlist`}
+  title={`Susanna's list`}
+  description={`Susanna's wishlist`}
   openGraph={{
     url: $page.url,
-    title: `Simeon's list`,
-    description: `Simeon's wishlist`,
-    site_name: 'Simeon\'s list'
+    title: `Susanna's list`,
+    description: `Susanna's wishlist`,
+    site_name: 'Susanna\'s list'
   }}
   twitter={{
     cardType: 'summary_large_image',
-    title: `Simeon's list`,
-    description: 'Simeon\'s wishlist',
+    title: `Susanna's list`,
+    description: 'Susanna\'s wishlist',
   }}
 />
